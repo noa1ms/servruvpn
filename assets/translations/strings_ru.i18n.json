@@ -1,0 +1,292 @@
+{
+    "general": {
+        "appTitle": "ServRU VPN",
+        "reset": "Сброс",
+        "toggle": {
+            "enabled": "Включено",
+            "disabled": "Отключено"
+        },
+        "state": {
+            "disable": "Отключить"
+        },
+        "sort": "Сортировка",
+        "sortBy": "Сортировать по",
+        "addToClipboard": "Копировать в буфер обмена"
+    },
+    "intro": {
+        "termsAndPolicyCaution(rich)": "Продолжая, Вы соглашаетесь с ${tap(@:about.termsAndConditions)}",
+        "start": "Начать"
+    },
+    "home": {
+        "pageTitle": "Главная",
+        "emptyProfilesMsg": "Начните с добавления профиля подписки",
+        "noActiveProfileMsg": "Выберите профиль",
+        "connection": {
+            "tapToConnect": "Нажмите для подключения",
+            "connecting": "Подключение",
+            "disconnecting": "Отключение",
+            "connected": "Подключено"
+        },
+        "stats": {
+            "traffic": "Текущий траффик",
+            "trafficTotal": "Траффик",
+            "uplink": "Скорость отправки",
+            "downlink": "Скорость загрузки"
+        }
+    },
+    "profile": {
+        "overviewPageTitle": "Профили",
+        "detailsPageTitle": "Профиль",
+        "activeProfileNameSemanticLabel": "Имя активного профиля: «${name}».",
+        "activeProfileBtnSemanticLabel": "Посмотреть все профили.",
+        "nonActiveProfileBtnSemanticLabel": "Выберите «${name}» в качестве активного профиля.",
+        "subscription": {
+            "traffic": "Трафик",
+            "updatedTimeAgo": "Обновлено ${timeago}",
+            "remainingDuration": "Ещё ${duration} дн.",
+            "remainingTrafficSemanticLabel": "Использовано ${consumed} трафика из ${total}.",
+            "expired": "Истекло",
+            "noTraffic": "Нет доступного трафика"
+        },
+        "sortBy": {
+            "lastUpdate": "последнему обновлению",
+            "name": " алфавиту"
+        },
+        "add": {
+            "buttonText": "Новый профиль",
+            "shortBtnTxt": "Новый профиль",
+            "fromClipboard": "Добавить из буфера обмена",
+            "scanQr": "Сканировать QR-код",
+            "qrScanner": {
+                "permissionDeniedError": "Доступ запрещен",
+                "unexpectedError": "Что-то пошло не так",
+                "torchSemanticLabel": "Вспышка",
+                "facingSemanticLabel": "Перед камерой"
+            },
+            "manually": "Ввести вручную",
+            "addingProfileMsg": "Добавление профиля",
+            "failureMsg": "Не удалось добавить профиль"
+        },
+        "update": {
+            "buttonTxt": "Обновить",
+            "tooltip": "Обновить профиль",
+            "failureMsg": "Не удалось обновить профиль",
+            "successMsg": "Профиль успешно обновлён"
+        },
+        "share": {
+            "buttonText": "Поделиться",
+            "exportToClipboardSuccess": "Скопировано в буфер обмена",
+            "exportSubLinkToClipboard": "Скопировать ссылку на подписку в буфер обмена",
+            "subLinkQrCode": "QR-код ссылки на подписку",
+            "exportConfigToClipboard": "Скопировать конфигурацию в буфер обмена",
+            "exportConfigToClipboardSuccess": "Конфигурация скопирована в буфер обмена"
+        },
+        "edit": {
+            "buttonTxt": "Изменить",
+            "selectActiveTxt": "Выберите активный профиль"
+        },
+        "delete": {
+            "buttonTxt": "Удалить",
+            "confirmationMsg": "Безвозвратно удалить профиль?",
+            "successMsg": "Профиль успешно удалён"
+        },
+        "save": {
+            "buttonText": "Сохранить",
+            "successMsg": "Профиль успешно сохранён",
+            "failureMsg": "Не удалось сохранить профиль"
+        },
+        "detailsForm": {
+            "nameLabel": "Имя",
+            "nameHint": "Имя профиля",
+            "urlLabel": "URL",
+            "urlHint": "Полный URL конфигурации",
+            "emptyNameMsg": "Поле «Имя» обязательно",
+            "invalidUrlMsg": "Неправильный URL",
+            "lastUpdate": "Последнее обновление",
+            "updateInterval": "Автоматическое обновление",
+            "updateIntervalDialogTitle": "Интервал обновления (в часах)"
+        }
+    },
+    "proxies": {
+        "pageTitle": "Прокси",
+        "emptyProxiesMsg": "Нет доступных прокси",
+        "delayTestTooltip": "Тестирование задержки",
+        "sortTooltip": "Сортировка прокси",
+        "sortOptions": {
+            "unsorted": "По умолчанию",
+            "name": "По алфавиту",
+            "delay": "По задержке"
+        }
+    },
+    "logs": {
+        "pageTitle": "Журналы",
+        "filterHint": "Фильтр",
+        "allLevelsFilter": "Все",
+        "shareCoreLogs": "Поделиться журналами ядра",
+        "shareAppLogs": "Поделиться журналами приложения",
+        "pauseTooltip": "Приостановить",
+        "resumeTooltip": "Возобновить",
+        "clearTooltip": "Очистить"
+    },
+    "settings": {
+        "pageTitle": "Настройки",
+        "requiresRestartMsg": "Чтобы применить изменения, перезапустите приложение",
+        "general": {
+            "sectionTitle": "Основные",
+            "locale": "Язык",
+            "region": "Регион",
+            "regionMsg": "Помогает установить параметры по умолчанию для обхода внутренних адресов",
+            "regions": {
+                "ir": "Иран (ir)",
+                "cn": "Китай (cn)",
+                "ru": "Россия (ru)",
+                "other": "Другой"
+            },
+            "themeMode": "Оформление",
+            "themeModes": {
+                "system": "Системная тема",
+                "dark": "Тёмная тема",
+                "light": "Светлая тема",
+                "black": "Чёрная тема"
+            },
+            "enableAnalytics": "Сбор аналитики",
+            "enableAnalyticsMsg": "Сбор данных аналитики и отправка отчётов о сбоях для улучшения приложения",
+            "autoStart": "Запуск при загрузке",
+            "silentStart": "Тихий запуск",
+            "openWorkingDir": "Открыть рабочую папку",
+            "ignoreBatteryOptimizations": "Отключить оптимизацию батареи",
+            "ignoreBatteryOptimizationsMsg": "Отключение ограничений для оптимальной производительности VPN"
+        },
+        "advanced": {
+            "sectionTitle": "Расширенные",
+            "debugMode": "Режим отладки",
+            "debugModeMsg": "Чтобы применить изменения, перезапустите приложение",
+            "memoryLimit": "Ограничение памяти"
+        },
+        "network": {
+            "perAppProxyPageTitle": "Раздельное проксирование",
+            "perAppProxyModes": {
+                "off": "Все",
+                "offMsg": "Проксировать все приложения",
+                "include": "Прокси",
+                "includeMsg": "Проксировать выбранные приложения",
+                "exclude": "Обход",
+                "excludeMsg": "Не проксировать выбранные приложения"
+            },
+            "showSystemApps": "Показать системные приложения",
+            "hideSystemApps": "Скрыть системные приложения",
+            "clearSelection": "Очистить выбор"
+        },
+        "config": {
+            "serviceMode": "Режим работы",
+            "serviceModes": {
+                "proxy": "Прокси",
+                "systemProxy": "Системный прокси",
+                "tun": "VPN"
+            },
+            "section": {
+                "route": "Варианты маршрутизации",
+                "dns": "Параметры DNS",
+                "inbound": "Входящие параметры",
+                "misc": "Разные параметры"
+            },
+            "pageTitle": "Параметры конфигурации",
+            "logLevel": "Уровень логирования",
+            "resolveDestination": "Определять назначение",
+            "ipv6Mode": "Маршрутизация IPv6",
+            "ipv6Modes": {
+                "disable": "Отключено",
+                "enable": "Включено",
+                "prefer": "Предпочтительно",
+                "only": "Исключительно"
+            },
+            "remoteDnsAddress": "Remote DNS",
+            "remoteDnsDomainStrategy": "Remote DNS Domain Strategy",
+            "directDnsAddress": "Direct DNS",
+            "directDnsDomainStrategy": "Direct DNS Domain Strategy",
+            "mixedPort": "Смешанный порт",
+            "localDnsPort": "Локальный порт DNS",
+            "tunImplementation": "Реализация TUN",
+            "mtu": "MTU",
+            "connectionTestUrl": "URL проверки подключения",
+            "urlTestInterval": "Интервал проверки URL",
+            "enableClashApi": "Использовать Clash API",
+            "clashApiPort": "Порт Clash API",
+            "enableTun": "Использовать TUN",
+            "setSystemProxy": "Использовать системный прокси",
+            "enableFakeDns": "Использовать поддельный DNS",
+            "bypassLan": "Обход локальной сети",
+            "strictRoute": "Строгая маршрутизация"
+        }
+    },
+    "about": {
+        "pageTitle": "О программе",
+        "version": "Версия",
+        "sourceCode": "Исходный код",
+        "telegramChannel": "Telegram-канал",
+        "checkForUpdate": "Проверить обновления",
+        "privacyPolicy": "Политика конфиденциальности",
+        "termsAndConditions": "Условия и положения"
+    },
+    "appUpdate": {
+        "notAvailableMsg": "Установлена последняя версия",
+        "dialogTitle": "Доступно обновление",
+        "updateMsg": "Доступна новая версия @:general.appTitle. Обновить сейчас?",
+        "currentVersionLbl": "Текущая версия",
+        "newVersionLbl": "Новая версия",
+        "updateNowBtnTxt": "Обновить",
+        "laterBtnTxt": "Позже",
+        "ignoreBtnTxt": "Пропустить"
+    },
+    "tray": {
+        "dashboard": "Панель",
+        "quit": "Выход",
+        "status": {
+            "connect": "Подключено",
+            "connecting": "Подключение",
+            "disconnect": "Отключено",
+            "disconnecting": "Отключение"
+        }
+    },
+    "failure": {
+        "unexpected": "Непредвиденная ошибка",
+        "clash": {
+            "unexpected": "Непредвиденная ошибка (Clash)",
+            "core": "Ошибка ${reason}"
+        },
+        "singbox": {
+            "unexpected": "Непредвиденная ошибка (SingBox)",
+            "serviceNotRunning": "Сервис не запущен",
+            "missingPrivilege": "Нет прав",
+            "missingPrivilegeMsg": "Режим VPN требует прав администратора. Перезапустите приложение от имени администратора или измените режим работы приложения.",
+            "invalidConfigOptions": "Неправильные параметры конфигурации",
+            "invalidConfig": "Неправильная конфигурация",
+            "create": "Ошибка создания сервиса",
+            "start": "Ошибка запуска сервиса"
+        },
+        "connectivity": {
+            "unexpected": "Непредвиденная ошибка",
+            "missingVpnPermission": "Отсутствует разрешение VPN",
+            "missingNotificationPermission": "Отсутствует разрешение на показ уведомлений",
+            "core": "Ошибка ядра"
+        },
+        "profiles": {
+            "unexpected": "Непредвиденная ошибка",
+            "notFound": "Профиль не найден",
+            "invalidConfig": "Неправильная конфигурация",
+            "invalidUrl": "Неправильный URL"
+        },
+        "connection": {
+            "unexpected": "Непредвиденная ошибка подключения",
+            "timeout": "Время подключения истекло",
+            "badResponse": "Неправильный ответ",
+            "connectionError": "Ошибка подключения",
+            "badCertificate": "Неправильный сертификат"
+        }
+    },
+    "play": {
+        "title": "ServRU VPN (Бета)",
+        "short_description": "Автовыбор, SSH, VLESS, Vmess, Trojan, Reality, Sing-Box, Clash, Xray, Shadowsocks",
+        "full_description": "Основная цель ServRU VPN — предоставить безопасный, удобный и эффективный клиент для туннелирования. Приложение позволяет направлять весь трафик или трафик выбранного приложения на указанный Вами удалённый сервер.\n\nПримечание: мы не предоставляем никаких серверов, пользователи сами должны обеспечивать конфиденциальность своих действий в Интернете, используя собственный сервер или доверенные серверы.  \n\n Поддерживаются сервера с: \n— Обычной ссылкой на подписку V2ray/Xray \n— Ссылкой на подписку Clash \n— Ссылкой на подписку Sing–Box \n\n В чём наши преимущества?   \n— Удобство   \n— Оптимизация и скорость   \n— Автоматический выбор на основе задержки   \n— Отображение информации об использовании   \n— Простой импорт ссылок в один клик   \n— Бесплатно и без рекламы   \n— Простое переключение ссылок   \n— …и много больше   \n\nПоддерживаются: \n• Все протоколы, поддерживаемые Sing-Box \n• VLESS + xtls reality, vision \n• VMESS \n• Trojan \n• ShoadowSocks \n• Reality \n• V2ray \n• Hystria2 \n• TUIC \n• SSH \n• ShadowTLS \n\nИсходный код доступен по ссылке https://github.com/hiddify/Hiddify-Next\nЯдро приложения основано на открытом исходном коде Sing–Box. \n\n Описание разрешений: \n— СЛУЖБА VPN: поскольку целью данного приложения является предоставление безопасного, удобного и эффективного клиента для туннелирования, это разрешение необходимо, чтобы иметь возможность направлять трафик через туннель на удалённый сервер. \n— ЗАПРОС ВСЕХ ПАКЕТОВ: это разрешение позволяет добавлять или удалять определённые приложения из списка для туннелирования. \n— ИНФОРМИРОВАНИЕ О ЗАВЕРШЕНИИ ЗАГРУЗКИ: это разрешение можно включить или отключить в настройках приложения, чтобы активировать или деактивировать соответственно запуск приложения при загрузке устройства. \n— ПОСТОЯННОЕ УВЕДОМЛЕНИЕ: оно необходимо, так как используется приоритетная служба для обеспечения непрерывной работы VPN подключения. \n— Приложение не содержит рекламы. Сбор аналитики и данных о сбоях происходят только с явного согласия пользователя при первом использовании приложения."
+    }
+}
