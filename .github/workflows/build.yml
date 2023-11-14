@@ -48,11 +48,11 @@ jobs:
             targets: AppImage
             filename: mrzbcli-linux-x64
 
-         # - platform: macos
-          #  os: macos-13
-          # aarch: universal
-          # targets: dmg
-          # filename: mrzbcli-macos-universal
+          - platform: macos
+            os: macos-13
+            aarch: universal
+            targets: dmg
+            filename: mrzbcli-macos-universal
 
           # - platform: ios
           #   os: macos-13
