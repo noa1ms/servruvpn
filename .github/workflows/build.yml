@@ -54,11 +54,11 @@ jobs:
           # targets: dmg
           # filename: mrzbcli-macos-universal
 
-          # - platform: ios
-          #   os: macos-13
-          #   aarch: universal
-          #   filename: mrzbcli-ios
-          #   targets: ipa
+           - platform: ios
+             os: macos-13
+             aarch: universal
+             filename: mrzbcli-ios
+             targets: ipa
 
     runs-on: ${{ matrix.os }}
     steps:
